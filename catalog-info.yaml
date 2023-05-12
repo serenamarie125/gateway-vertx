@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gateway-vertx
+  description: |
+    gateway-vertx
+  annotations:
+    github.com/project-slug: serenamarie125/gateway-vertx
+    backstage.io/kubernetes-id: gateway-vertx
+spec:
+  type: website
+  owner: janus-authors
+  lifecycle: experimental
